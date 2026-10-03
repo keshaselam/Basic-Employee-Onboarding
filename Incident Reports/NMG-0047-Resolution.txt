@@ -1,0 +1,24 @@
+Day 4
+Janes user identity is in Operations OU
+Jane Cooper is in operations OU but should be in HR OU because 
+shes a Payroll specialist.
+Upon research Jane is currently a member of Operations- users but 
+should be a member of HR-users. 
+Finding the problem of incorrect entry lead to Jane be granted the
+wrong access, causing delays and confusion. This is an issue due to safety and protocol.
+Either lack of research was done, or someone was negligent with 
+entering Jane during enrollment. 
+ 
+Ticket Number: NMG-0047
+Affected user: Jane Cooper
+Issue reported: Unable to access HR shared resources. Desktop policies and mapped 
+drives differ from teammates.
+Root cause: Jane user identy was entered as a Operations OU
+Jane was part of the Operations-user group. Jane ddidn't have access
+to correct HR user group
+Fix applied: Upon research I removed Jane from Operations OU 
+and placed her into HR OU, also removed her from the OU group and placed her into
+Finance. Then verified that Jane was in the complete area which is HR and she was 
+a member of HR-users. Account was updated.
+Date: resolved: 9/30/26
+Resolved by: IT New Hire
