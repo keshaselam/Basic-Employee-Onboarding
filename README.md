@@ -5,7 +5,7 @@ During the initial assessment of Northstar Medical Group (NMG), I identified gap
 I established the NMG.com Active Directory domain using a Domain Controller to provide centralized identity management and authentication for the organization. I created four organizational units (OUs)—Finance, HR, IT, and Operations—to structure employee accounts by department and support organized directory administration. I created corresponding security groups (Finance-Users, HR-Users, IT-Users, and Operations-Users) to organize users and facilitate controlled access to department-specific resources. I designed a flat role-based access control (RBAC) model in which users receive baseline permissions through their assigned departmental security group, with additional access limited to approved job responsibilities and the principle of least privilege. For user provisioning, I recorded employee attributes, including name, SAM account name, user principal name (UPN), job title, and department, and configured temporary passwords to require a change at first logon. Provisioning security is evaluated through verification of authorization, appropriate group membership, password configuration, and assigned permissions, with validation and audit evidence documented for each account.
 
 ## Video Walkthrough
-[Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
+https://www.loom.com/share/6984e49e00ce41989f520aa613284116
 
 ## Tools Used
 * Windows Server
